@@ -1,0 +1,53 @@
+body {
+    font-family: 'poppins';
+    margin: 0;
+    padding: 20px;
+    background-image: url('../img/img2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+form {
+    position: relative;
+    top: 0 auto;
+    background: rgba(55, 182, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+    border: 1px solid rgba(102, 212, 255, 0.18);
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    
+}
+
+label, input {
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+input[type="submit"] {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Jubilación IGSS</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <h1>Calculadora de Jubilación por el IGSS</h1>
+
+    <form id="igssPensionForm">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="age">Edad:</label>
+        <input type="number" id="age" name="age" min="0" required>
+
+        <label for="yearsWorked">Años trabajados:</label>
+        <input type="number" id="yearsWorked" name="yearsWorked" min="0" required>
+
+        <label for="totalQuotas">Cuotas pagadas al IGSS:</label>
+        <input type="number" id="totalQuotas" name="totalQuotas" min="0" required>
+
+        <label for="last5YearAverageSalary">Promedio de sueldos de los últimos 5 años (GTQ):</label>
+        <input type="number" id="last5YearAverageSalary" name="last5YearAverageSalary" min="0" required>
+
+        <input type="submit" value="Calcular Jubilación">
+    </form>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
